@@ -1,0 +1,21 @@
+TIPOS DE VARIÁVEIS:
+. Inteiro - int;
+. Real - float ou double;
+. Caractere - char;
+
+DECLARAR VARIÁVEL EM C:
+. <tipo> <nome>; ou <tipo> <nome1>, <nome2>;
+
+REGRAS DE NOMENCLATURA:
+. Todo nome deve conter apenas letras, números, ",";
+. Não pode começar com número;
+. Não pode ser igual a nenhuma "palavra reservada";
+
+CONSTANTES:
+. Declaração:
+<tipo> const <nome>=<valor>
+
+IMPRIMIR UM VALOR:
+%d ou %i = int
+%f = float
+%c = char
