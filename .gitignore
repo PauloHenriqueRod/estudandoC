@@ -5,3 +5,5 @@ variáveis/leituradevariavel.exe
 variáveis/leituradevariavel.o
 variáveis/variavel.exe
 variáveis/variavel.o
+*.exe
+*.o
