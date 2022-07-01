@@ -9,12 +9,17 @@ int main(){
     printf("NOTA 3: ");
     scanf("%f", &nota3);
     media = (nota1+nota2+nota3)/3;
-    printf("%.1f", media);
-    if media < 4{
-            printf("REPROVADO{")
-            };
-    if media > 4 and media < 7{
-        printf("EXAME FINAL")
+    printf("MEDIA = %.1f\n", media);
+    if (media < 7){
+            if (media < 4){
+                printf("REPROVADO\n");
+            }
+            if (media >= 4){
+                printf("EXAME FINAL\n");
+            }
+            }
+    if (media >= 7){
+        printf("APROVADO\n");
     }
     return 0;
-}
+    }
