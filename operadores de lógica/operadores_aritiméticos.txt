@@ -1,9 +1,0 @@
-+ = adição
-- = subtração
-* = multiplicação
-/ = divisão
-% = resto
-
-Prioritário (*, /, %)
-Parênteses adiantam na prioridade
-Operações são realizadas da esquerda pra direita
