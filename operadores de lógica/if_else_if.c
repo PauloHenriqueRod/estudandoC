@@ -6,9 +6,11 @@ int main(){
     scanf("%f", &media);
     if (media >= 7){
         printf("APROVADO\n");
-    }else if (media < 4){
+    }
+    else if (media < 4){
         printf("REPROVADO\n");
-    }else{
+    }
+    else{
         printf("EXAME FINAL\n");
     }
 }
