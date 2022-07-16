@@ -8,5 +8,5 @@ int main(){
     scanf("%f", &sh);
     salario = ht*sh;
     printf("NUMBER = %d\n", n);
-    printf("SALARY = %.2f\n", salario);
+    printf("SALARY = U$ %.2f\n", salario);
 }
