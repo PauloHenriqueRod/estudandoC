@@ -4,6 +4,7 @@
 int main(){
     // O tamanho de uma string
     char palavra[20] = "Fluminense";
+    char time[100];
     int tamanho = strlen(palavra);
     printf("Tamanho = %d\n", tamanho);
     printf("-----------------------------\n");
@@ -22,5 +23,9 @@ int main(){
         printf("STRINGS IGUAIS\n");
     else
         printf("STRINGS DIFERENTES\n");
+    do{
+        printf("Para sair digite qual o melhor time do mundo: \n");
+        scanf("%s", &time);
+    }while(strcmp(time, "fluminense")!=0 && (strcmp(time, "flu")!=0));
     return 0;
 }
