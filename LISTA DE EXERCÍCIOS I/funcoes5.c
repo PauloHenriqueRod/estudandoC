@@ -3,7 +3,7 @@
 int LeNaoNegativo(){
     int num;
     while(1){
-    printf("Digite um número inteiro positivo: ");
+    printf("Digite um numero inteiro positivo: ");
     scanf("%d", &num);
     if (num>=0)
         return num;
@@ -33,8 +33,8 @@ int main(){
     y = LeNaoNegativo(y);
     t = SaoAmigos(x, y);
     if (t==1)
-        printf("Sao amigos");
+        printf("Sao amigos\n");
     else
-        printf("Nao sao amigos");
+        printf("Nao sao amigos\n");
     return 0;
 }
